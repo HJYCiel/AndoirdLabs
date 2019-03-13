@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/profile"
-        />
+        android:text="@string/profile" />
 
     <EditText
         android:id="@+id/Editxt3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/name"
-/>
+        android:hint="@string/name" />
+
     <TextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/youremail"
-        />
+        android:text="@string/youremail" />
+
     <EditText
         android:id="@+id/Editxt2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
         android:inputType="textEmailAddress" />
+
     <TextView
         android:id="@+id/text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/picture"
-        />
+        android:text="@string/picture" />
 
     <ImageButton
         android:id="@+id/btn_image"
@@ -41,11 +42,24 @@
         android:src="@android:drawable/picture_frame"
 
         />
+
     <TextView
         android:id="@+id/text4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/clickforpic"
-        />
+        android:text="@string/clickforpic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/chat" />
+
+    <Button
+        android:id="@+id/buttonTool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool" />
 
 </LinearLayout>

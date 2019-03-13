@@ -12,7 +12,9 @@ package com.example.andoirdlabs;
         import android.support.v4.content.ContextCompat;
         import android.support.v7.app.AppCompatActivity;
 
+
         import android.util.Log;
+        import android.widget.Button;
         import android.widget.EditText;
         import android.widget.ImageButton;
 
@@ -45,6 +47,20 @@ public class ProfileActivity extends AppCompatActivity {
 
         });
 
+        Button nextButton = (Button)findViewById(R.id.button2);
+        nextButton.setOnClickListener( c -> {
+
+            //Give directions to go from this page, to SecondActivity
+            Intent nextPage = new Intent(ProfileActivity.this,ChatRoomActivity.class);
+
+            //Now make the transition:
+            startActivity(nextPage);
+        });
+        Button tool=(Button)findViewById(R.id.buttonTool);
+        tool.setOnClickListener(d->{
+            Intent gototool = new Intent(ProfileActivity.this,TestToolbar.class);
+            startActivity(gototool);
+        });
 
 
     }

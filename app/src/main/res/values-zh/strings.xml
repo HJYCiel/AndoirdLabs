@@ -12,5 +12,14 @@
     <string name="youremail">你的邮箱</string>
     <string name="picture">你的照片</string>
     <string name="clickforpic">请点击上面按钮开始拍照</string>
-
+    <string name="chat">去聊天</string>
+    <string name="send">发送</string>
+    <string name="receive">收取</string>
+    <string name="type">在这里输入文字</string>
+    <string name="tool">去工具箱页面</string>
+    <string name="choice1">选项一</string>
+    <string name="choice2">选项二</string>
+    <string name="choice3">选项三</string>
+    <string name="newMessage">替换的新信息是什么？</string>
+    <string name="action_settings">设置</string>
 </resources>

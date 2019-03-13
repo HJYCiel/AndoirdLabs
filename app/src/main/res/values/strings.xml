@@ -11,4 +11,15 @@
     <string name="youremail">Your email</string>
     <string name="picture">Your picture</string>
     <string name="clickforpic">Click the button above to take a picture</string>
+    <string name="chat">Go to chat</string>
+    <string name="send">SEND</string>
+    <string name="receive">RECEIVE</string>
+    <string name="type">Type here</string>
+    <string name="tool">Go to Toolbar page</string>
+    <string name="choice1">Choice 1</string>
+    <string name="choice2">Choice 2</string>
+    <string name="choice3">Choice 3</string>
+    <string name="newMessage">What is your new message?</string>
+    <string name="action_settings">setting</string>
+
 </resources>
