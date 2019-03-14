@@ -67,7 +67,7 @@ public class TestToolbar extends AppCompatActivity {
 
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Change the overflow Toast")
+        builder.setMessage("Change the overflow Toast ")
                 .setPositiveButton("Positive", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // What to do on Accept
